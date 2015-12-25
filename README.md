@@ -1,4 +1,4 @@
-# nodemcu_iot_on_the_cheap
+# NodeMCU - IoT on the cheap
 How to get started with the NodeMCU/ESP8266
 
 

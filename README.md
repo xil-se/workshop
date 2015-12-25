@@ -9,20 +9,23 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
  * [Windows] USB-Serial driver [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/CP210x_VCP_Windows.zip)
 
 ## Linux
+  1. Make sure you have OS permissions to access the NodeMCU serial interface. If the below command fails, the serial interface has another name or you don't have permissions to it.
 
-  1. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
-  2. Flash NodeMCU binary to NodeMCU [esptool](https://github.com/themadinventor/esptool).
+        cat /dev/ttyUSB0
+
+  2. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
+  3. Flash NodeMCU binary to NodeMCU [esptool](https://github.com/themadinventor/esptool).
 
         python esptool.py -p /dev/ttyUSB0 write_flash 0x000000 Downloads/nodemcu_1.4.bin
 
-  3. Push the button marked 'RST' on the NodeMCU board.
-  4. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
-  5. Download one of the Lua [sample scripts from below](#samples).
-  6. Rename sample script to _init.lua_.
-  7. Open the file you renamed to _init.lua_ in ESPlorer.
-  8. Click the 'Open' button in ESPlorer, to connect ESPlorer to the NodeMCU board.
-  9. Push the button marked 'RST' on the NodeMCU board.
-  10. Watch whatever you pu into _init.lua_ execute upon boot.
+  4. Push the button marked 'RST' on the NodeMCU board.
+  5. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
+  6. Download one of the Lua [sample scripts from below](#samples).
+  7. Rename sample script to _init.lua_.
+  8. Open the file you renamed to _init.lua_ in ESPlorer.
+  9. Click the 'Open' button in ESPlorer, to connect ESPlorer to the NodeMCU board.
+  10. Push the button marked 'RST' on the NodeMCU board.
+  11. Watch whatever you pu into _init.lua_ execute upon boot.
 
 
 ## Mac

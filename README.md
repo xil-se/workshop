@@ -2,7 +2,7 @@
 How to get started with the NodeMCU and the ESP8266 chip it contains.
 
 ## Tools
- * [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625)
+ * [ESPlorer](http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip)
  * [Win] [ESP8266 Flasher](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe)
  * [Linux/OSX] [esptool](https://github.com/themadinventor/esptool)
  * [OSX] USB-Serial driver [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip)
@@ -20,7 +20,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
         python esptool.py -p /dev/ttyUSB0 write_flash 0x000000 Downloads/nodemcu_1.4.bin
 
   4. Push the button marked 'RST' on the NodeMCU board.
-  5. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
+  5. Start [ESPlorer](http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip).
   6. Download one of the Lua [sample scripts from below](#samples).
   7. Rename sample script to _init.lua_.
   8. Open the file you renamed to _init.lua_ in ESPlorer.
@@ -42,7 +42,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
         python esptool.py -p /dev/cu.SLAB_USBtoUART write_flash 0x000000 Downloads/nodemcu_1.4.bin
 
   5. Push the button marked 'RST' on the NodeMCU board.
-  6. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
+  6. Start [ESPlorer](http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip).
   7. Download one of the Lua [sample scripts from below](#samples).
   8. Rename sample script to _init.lua_.
   9. Open the file you renamed to _init.lua_ in ESPlorer.
@@ -56,7 +56,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
   2. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
   3. Flash NodeMCU binary to NodeMCU using [ESP8266 Flasher, Usage](https://github.com/nodemcu/nodemcu-flasher).
   4. Push the button marked 'RST' on the NodeMCU board.
-  5. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
+  5. Start [ESPlorer](http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip).
   6. Download one of the Lua [sample scripts from below](#samples).
   7. Rename sample script to _init.lua_.
   8. Open the file you renamed to _init.lua_ in ESPlorer.

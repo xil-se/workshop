@@ -16,7 +16,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
         python esptool.py -p /dev/ttyUSB0 write_flash 0x000000 Downloads/nodemcu_1.4.bin
 
   3. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625)
-  4. Download one of the Lua sample scripts from below
+  4. Download one of the Lua [sample scripts from below](#samples)
   5. Rename sample script to _init.lua_
   6. Open the file you renamed to _init.lua_ in ESPlorer
   7. Click the 'Open' button in ESPlorer, to connect ESPlorer to the NodeMCU board
@@ -35,7 +35,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
   1. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin)
   2. Flash NodeMCU binary to NodeMCU using [ESP8266 Flasher, Usage](https://github.com/nodemcu/nodemcu-flasher)
   3. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625)
-  4. Download one of the Lua sample scripts from below
+  4. Download one of the Lua [sample scripts from below](#samples)
   5. Rename sample script to _init.lua_
   6. Open the file you renamed to _init.lua_ in ESPlorer
   7. Click the 'Open' button in ESPlorer, to connect ESPlorer to the NodeMCU board
@@ -52,7 +52,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
 **WARNING: This NodeMCU image is not built with all the modules that NodeMCU supports and are listed online. Please make a new image that contains the modules you need. Visit for [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) for a service that will do just that for you.**
 
 
-## Sample LUA Scripts
+## <a name="samples"></a>Sample LUA Scripts
 Rename either one of these files to init.lua and upload it to the NodeMCU board
 
  * [Get IP sample](https://raw.githubusercontent.com/xil-se/nodemcu_iot_on_the_cheap/master/get_ip.lua)

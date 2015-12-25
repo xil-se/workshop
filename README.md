@@ -31,11 +31,28 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
 
 ## Mac
 
-  1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip)
+  1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip).
+  2. Make sure you have OS permissions to access the NodeMCU serial interface. If the below command fails, the serial interface has another name or you don't have permissions to it.
+
+        /dev/cu.SLAB_USBtoUART
+
+  3. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
+  4. Flash NodeMCU binary to NodeMCU [esptool](https://github.com/themadinventor/esptool).
+
+        python esptool.py -p /dev/cu.SLAB_USBtoUART write_flash 0x000000 Downloads/nodemcu_1.4.bin
+
+  5. Push the button marked 'RST' on the NodeMCU board.
+  6. Start [ESPlorer](http://i1.wp.com/esp8266.ru/images/download.gif?zoom=1.5&w=625).
+  7. Download one of the Lua [sample scripts from below](#samples).
+  8. Rename sample script to _init.lua_.
+  9. Open the file you renamed to _init.lua_ in ESPlorer.
+  10. Click the 'Open' button in ESPlorer, to connect ESPlorer to the NodeMCU board.
+  11. Push the button marked 'RST' on the NodeMCU board.
+  12. Watch whatever you pu into _init.lua_ execute upon boot.
 
 ## Windows
 
-  1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/CP210x_VCP_Windows.zip)
+  1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/CP210x_VCP_Windows.zip).
   2. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
   3. Flash NodeMCU binary to NodeMCU using [ESP8266 Flasher, Usage](https://github.com/nodemcu/nodemcu-flasher).
   4. Push the button marked 'RST' on the NodeMCU board.

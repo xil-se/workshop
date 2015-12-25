@@ -71,7 +71,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
 
 [nodemcu_1.4.bin](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin)
 
-**WARNING: This NodeMCU image is not built with all the modules that NodeMCU supports and are listed online. Please make a new image that contains the modules you need. Visit for [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) for a service that will do just that for you.**
+**WARNING: This NodeMCU image is not built with all the modules that NodeMCU supports. Please make a new image that contains the modules you need. Visit for [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) for a service that will do just that for you.**
 
 
 ## <a name="samples"></a>Sample LUA Scripts

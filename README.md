@@ -11,7 +11,6 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
 ## Linux
 
   1. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin)
-
   2. Flash NodeMCU binary to NodeMCU [esptool](https://github.com/themadinventor/esptool)
     python esptool.py -p /dev/ttyUSB0 write_flash 0x000000 Downloads/nodemcu_1.4.bin
 

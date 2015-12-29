@@ -1,6 +1,6 @@
 -- Set up WiFI
 wifi.setmode(wifi.STATION)
-wifi.sta.config("", "")
+wifi.sta.config("<AP-NAME>", "<PASSWORD>")
 
 -- Tell us when we've gotten an IP
 tmr.alarm(0, 500, 1, function()

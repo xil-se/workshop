@@ -9,6 +9,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
  * [Windows] USB-Serial driver [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/CP210x_VCP_Windows.zip)
 
 ## Linux
+Prerequisites: java, python2.7, pyserial
 
   1. Make sure you have OS permissions to access the NodeMCU serial interface. If the below command fails, the serial interface has another name or you don't have permissions to it.
 
@@ -30,6 +31,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
 
 
 ## Mac
+Prerequisites: java, python2.7, pyserial
 
   1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip).
   2. Make sure you have OS permissions to access the NodeMCU serial interface. If the below command fails, the serial interface has another name or you don't have permissions to it.
@@ -51,6 +53,7 @@ How to get started with the NodeMCU and the ESP8266 chip it contains.
   12. Watch whatever you pu into _init.lua_ execute upon boot.
 
 ## Windows
+Prerequisites: java
 
   1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/CP210x_VCP_Windows.zip).
   2. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).

@@ -1,6 +1,6 @@
 print("STARTING UP")
 wifi.setmode(wifi.STATION)
-wifi.sta.config("Hacklab-Guests","")
+wifi.sta.config("wifi-name-here","wifi-password-here")
 
 led1 = 0
 gpio.mode(led1, gpio.OUTPUT)

@@ -36,7 +36,7 @@ Prerequisites: java, python2.7, pyserial
   1. Download and install the CP2012 driver used for the NodeMCU USB-Serial chip, [CP2102 driver](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip).
   2. Make sure you have OS permissions to access the NodeMCU serial interface. If the below command fails, the serial interface has another name or you don't have permissions to it.
 
-        /dev/cu.SLAB_USBtoUART
+        cat /dev/cu.SLAB_USBtoUART
 
   3. Download NodeMCU binary, from [here](https://github.com/xil-se/nodemcu_iot_on_the_cheap/raw/master/nodemcu_1.4.bin).
   4. Flash NodeMCU binary to NodeMCU [esptool](https://github.com/themadinventor/esptool).

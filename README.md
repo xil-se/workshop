@@ -71,10 +71,10 @@ Prerequisites: java
 
 
 ## NodeMCU Firmware Binary
+**WARNING: This NodeMCU image is not built with all the modules that NodeMCU supports. Please make a new image that contains the modules you need. Visit for [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) for a service that will do just that for you.**
 
 [nodemcu_1.4.bin](nodemcu_1.4.bin?raw=true)
 
-**WARNING: This NodeMCU image is not built with all the modules that NodeMCU supports. Please make a new image that contains the modules you need. Visit for [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) for a service that will do just that for you.**
 
 
 ## <a name="samples"></a>Sample LUA Scripts

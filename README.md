@@ -80,11 +80,12 @@ Prerequisites: java
 ## <a name="samples"></a>Sample LUA Scripts
 Rename either one of these files to init.lua and upload it to the NodeMCU board.
 
- * [Get IP sample](https://raw.githubusercontent.com/xil-se/nodemcu_iot_on_the_cheap/master/get_ip.lua)
- * [Setup WiFi sample](https://raw.githubusercontent.com/xil-se/nodemcu_iot_on_the_cheap/master/setup_wifi.lua)
- * [Web Server sample](https://raw.githubusercontent.com/xil-se/nodemcu_iot_on_the_cheap/master/webserver.lua)
+ * [Get IP sample](lua_samples/get_ip/init.lua?raw=true)
+ * [Web Server sample](lua_samples/webserver/init.lua?raw=true) 
+ * [Setup WiFi sample](lua_samples/setup_wifi/init.lua?raw=true)
 
-
+https://raw.githubusercontent.com/xil-se/workshop/master/lua_samples/get_ip/inti.lua
+https://github.com/xil-se/workshop/raw/master/lua_samples/get_ip/init.lua
 ## Other Resources
 
  * [NodeMCU Custom Builds](http://frightanic.com/nodemcu-custom-build/) - Have a custom NodeMCU version built with all the modules that you need
